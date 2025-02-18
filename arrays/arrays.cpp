@@ -20,5 +20,5 @@ int main(){
 
 // Array indexes go from 0 to size-1
 // Array is always automatically passed by reference
-// Arrays have a fixed size
+// Arrays have a fixed size once their size is declared.
 
