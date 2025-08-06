@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
 
-// selection sort
-
 int smallest_index(int arr[], int st, int end){
     int s_index = st;
     for (int i=st;i<=end;i++){
@@ -66,4 +64,5 @@ int main(){
     int arr1[6] = {6,3,4,1,9,8};
     insertion_sort(arr1,6);
     print_arr(arr1,6);
+
 }
